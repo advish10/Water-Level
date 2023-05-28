@@ -18,9 +18,6 @@ This project aims to automate the water control system using an Arduino board, a
 - Bulb Holder
 - 2 Pin Plug
 
-## Block Diagram
-![Block Diagram](Block Diagram.png) 
-
 ## Circuit Diagram
 ![Circuit Diagram](IMG20230524012229.jpg)
 
