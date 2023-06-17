@@ -57,12 +57,13 @@ This project aims to automate the water control system using an Arduino board, a
 
 ## Usage
 1. Make sure the water pump, Arduino board, and power supply are properly connected.
-2. Place the ultrasonic sensor at an appropriate location to detect the water level.
+2. Place the ultrasonic sensor at least 3cm away to detect the water level.
 3. Power on the Arduino board.
 4. The system will start detecting the water level using the ultrasonic sensor.
-5. If the water level is below a certain threshold, the relay module will activate the water pump.
-6. If the water level rises above the threshold, the relay module will deactivate the water pump.
+5. If the water level is below 30% the relay module will activate the water pump.
+6. If the water level rises above 85% the relay module will deactivate the water pump.
 7. The pump will automatically turn on/off based on the detected water level.
+8. In this project the ultrasonic sensor can measure upto 18cm of height of water.
 
 ## Contributing
 Contributions are welcome! If you find any issues or want to enhance this project, please submit a pull request.
